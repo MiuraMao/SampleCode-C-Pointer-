@@ -5,7 +5,7 @@ int hoge;
 int main(void)
 {
     char buf[256];
-    printf("&hoge...%p\n", (void*)&hoge);
+    printf("&hoge...%p\n", (void*)&hoge);   //仮想アドレスが見える
 
     printf("Input initial value.\n");
     fgets(buf, sizeof(buf), stdin);
