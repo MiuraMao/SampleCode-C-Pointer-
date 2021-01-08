@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//自動変数はスタックに保存される
 void func(int a, int b)
 {
     int c, d;
